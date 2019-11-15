@@ -10,58 +10,56 @@
 
 <body>
     <!-- Navbar at top, 12 columns wide, or full page -->
-    <!-- The container allows us to adjust the width of the navbar if we want to.  -->
-    <div class="container">
+    <!-- The container allows us to adjust the width of the navbar if we want to. Padding is adjusted so navbar lines up with main content -->
+    <div class="container px-xs-0 px-md-0">
         <!-- bg-white changes background of navbar to white  -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <nav class="navbar navbar-expand-sm navbar-light bg-white  px-md-0 px-xs-0">
             <a class="navbar-brand" href="#">
-                <h1 style="background-color: #4aaaa5;"><a class="navbar-brand" href="#">James Q. Pearce</a></h1>
+                <h1 style="background-color: #4aaaa5;">James Q. Pearce</h1>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./about.html">About</a>
+            <!-- ​this is misisng the id of the stuff that gets collapsed -->
+            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./index.html">About</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./portfolio.html">Portfolio <span
+                                class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./contact.html">Contact</a>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./contact.html">Contact</a>
                     </li>
                 </ul>
-
             </div>
+            ​
+
         </nav>
     </div>
 
-    <div class="container">
+    <div class="container px-xs-0 px-md-2">
         <div class="row">
             <div class="col-md-12">
                 <h2>About Me</h2>
             </div>
         </div>
-    </div>
-
-    <div class="row">
-        <div class="col-sm-4">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="./assets/images/profile1.jpg" class="img-responsive" alt="Handsome, Bearded Man">
+        <div class="row">
+                <div class="col-sm-4">
+                    <!-- <div class="container"> -->
+        
+                        <img class="img-fluid" src="./assets/images/profile1.jpg" alt="Handsome, Bearded Man">
+        
                     </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-sm-8">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8">
-
+                <!-- </div> -->
+        
+                <div class="col-sm-8">
+                    <!-- <div class="container"> -->
+        
+        
                         <p>
                             Long have I been impressed at the ability of words to illuminate realities in the minds of
                             those who
@@ -83,18 +81,21 @@
                             skills to
                             share knowledge and services in a simple, appealing and engaging manner.
                         </p>
-                    </div>
+        
+                    <!-- </div> -->
                 </div>
             </div>
-        </div>
+
     </div>
+
+    
 
 
 
     <!-- footer -->
-    <footer class="footer mt-auto py-3" style="background-color: #4aaaa5;">
+    <footer class="footer mt-2 py-3" style="background-color: #4aaaa5;">
         <div class="container">
-            <p class="text-center">Place sticky footer content here.</p>
+            <p class="text-center">Copyright &copy;</p>
         </div>
     </footer>
 
