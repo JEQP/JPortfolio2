@@ -8,4 +8,7 @@ The pages are responsive to screensize, although when the links in the navbar co
 Deployed link:
 https://jeqp.github.io/JPortfolio2/
 
+![About Me](https://github.com/JEQP/JPortfolio2/blob/master/jportfolio2Index.jpg)
+![Portfolio](https://github.com/JEQP/JPortfolio2/blob/master/jportfolio2portfolio.jpg)
+![Contact](https://github.com/JEQP/JPortfolio2/blob/master/jportfolio2contact.jpg)
 
